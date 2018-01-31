@@ -77,3 +77,12 @@ discuss various aspects of `lnd` and also Lightning in general.
 ## Further reading
 * [Step-by-step send payment guide with docker](https://github.com/lightningnetwork/lnd/tree/master/docker)
 * [Contribution guide](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md)
+
+
+# Fetch new Version
+```
+git remote add upstream git://github.com/lightningnetwork/lnd.git
+git fetch upstream
+git pull upstream master
+git push
+```
